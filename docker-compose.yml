@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  ds_starter:
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/project
