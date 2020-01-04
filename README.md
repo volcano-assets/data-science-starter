@@ -1,6 +1,6 @@
-# Licancabur Project Starter
+# Licancabur Data Science Project Starter
 
-_A Dockerfile to install all necessary tools to generate a new project_
+_A Dockerfile to install all necessary tools to generate a new data science project_
 
 ### Requirements:
 -----------
@@ -11,5 +11,5 @@ _A Dockerfile to install all necessary tools to generate a new project_
 ### To start a new project, run:
 ------------
 
-- For Data Science projects:
-      cookiecutter https://github.com/licancabur-management/cookiecutter-data-science
+    docker-compose build ds_starter
+    docker-compose run ds_starter
