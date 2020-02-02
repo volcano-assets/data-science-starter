@@ -11,5 +11,22 @@ _A Dockerfile to install all necessary tools to generate a new data science proj
 ### To start a new project, run:
 ------------
 
-    docker-compose build ds_starter
-    docker-compose run ds_starter
+    1. docker-compose build ds_starter
+    2. docker-compose run ds_starter
+
+
+It will create a folder with the project name defined by you
+
+
+    3. chmod -R 777 project_name
+
+
+Access the project folder
+
+
+    4. git init
+
+
+### To run the linter
+
+    ./scripts/black
