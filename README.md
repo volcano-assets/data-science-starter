@@ -1,4 +1,4 @@
-# Licancabur Data Science Project Starter
+# Volcano Data Science Project Starter
 
 _A Dockerfile to install all necessary tools to generate a new data science project_
 
