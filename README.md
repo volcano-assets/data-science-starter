@@ -25,8 +25,3 @@ Access the project folder
 
 
     4. git init
-
-
-### To run the linter
-
-    ./scripts/black

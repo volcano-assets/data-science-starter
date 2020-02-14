@@ -7,4 +7,4 @@ FROM python:3.8.1-alpine
 
   WORKDIR /project
 
-  ENTRYPOINT ["cookiecutter", "https://github.com/licancabur-management/cookiecutter-data-science"]
+  ENTRYPOINT ["cookiecutter", "https://github.com/volcano-assets/cookiecutter-data-science"]
